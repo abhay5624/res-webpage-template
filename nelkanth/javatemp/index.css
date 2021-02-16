@@ -1,0 +1,409 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background-color: black;
+}
+header {
+  display: flex;
+  background-color: black;
+  color: rgb(203, 203, 203);
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  font-family: "Kreon", serif;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  text-align: justify;
+  padding: 30px;
+  overflow: hidden;
+  position: fixed;
+}
+.blank {
+  width: 100%;
+  height: 110px;
+}
+.logo {
+  top: 0%;
+  width: 60px;
+  height: 70px;
+}
+.headbutton {
+  display: flex;
+
+  height: 45px;
+  background-color: rgb(216, 216, 7);
+  text-transform: capitalize;
+  text-align: justify;
+  padding-top: 8px;
+  font-size: 20px;
+  border-collapse: collapse;
+  cursor: pointer;
+  overflow: hidden;
+  border-color: rgb(216, 216, 7);
+  opacity: 0;
+}
+.headbutton:hover {
+  background-color: rgb(177, 177, 7);
+}
+.headbutton2 {
+  color: ivory;
+  display: flex;
+  height: 45px;
+  background-color: inherit;
+  text-transform: capitalize;
+  text-align: justify;
+  padding-top: 8px;
+  font-size: 20px;
+  border-color: white;
+
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.headlink {
+  margin-left: 35%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 20%;
+  font-family: "Kreon", serif;
+}
+.headbutton2:hover {
+  background-color: rgb(216, 216, 7);
+  border-color: rgb(216, 216, 7);
+}
+nav {
+  display: flex;
+  background-color: rgb(187, 71, 71);
+  width: 100%;
+  color: white;
+  text-align: bottom;
+  overflow: hidden;
+  bottom: 0%;
+  height: 50px;
+}
+
+.nav-link {
+  display: flex;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  justify-content: space-around;
+  width: 50%;
+  text-transform: uppercase;
+  list-style: none;
+}
+.slidecontainer {
+  margin: 10px;
+  color: rgb(208, 102, 102);
+  text-align: center;
+  font-family: "Kreon", serif;
+  text-transform: capitalize;
+  font-size: 50px;
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid rgb(45, 45, 45);
+}
+.item {
+  text-align: center;
+  min-width: 190px;
+  height: 190px;
+  line-height: 110px;
+  cursor: pointer;
+}
+.slidecontainer::-webkit-scrollbar {
+  width: 0%;
+}
+.ourrec {
+  text-align: center;
+  color: rgb(182, 181, 181);
+  font-family: "Kreon", serif;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.contain {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  overflow-x: hidden;
+  width: 80%;
+  margin-left: 10%;
+}
+.navitem {
+  border-radius: 25px;
+  margin: 2px;
+  display: flex;
+  width: 35%;
+  background-color: rgb(187, 71, 71);
+  justify-content: center;
+  height: 110px;
+
+  text-align: center;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+.navitem h4 {
+  text-align: center;
+  color: rgb(189, 184, 184);
+  justify-content: space-around;
+}
+.navitem:hover {
+  background-color: rgb(189, 184, 184);
+  color: rgb(187, 71, 71);
+}
+.navitem h4:hover {
+  color: rgb(187, 71, 71);
+}
+.indian {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+.dishname {
+  display: flex;
+
+  color: rgb(187, 71, 71);
+  text-transform: capitalize;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.dishimage {
+  display: flex;
+  width: 35%;
+  background-color: black;
+}
+.foodlist {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+.listcontainer {
+  border-radius: 25px;
+
+  color: rgb(187, 71, 71);
+  text-align: left;
+  font-weight: 600;
+  font-family: "Kreon", serif;
+  line-height: 20px;
+  list-style: square;
+}
+.listcont {
+  width: 35%;
+  display: flex;
+}
+.listcontainer:hover {
+  border-radius: 25px;
+  font-size: xx-large;
+  z-index: 99;
+  margin: 5px;
+}
+.listcontainer li:hover {
+  padding: 20px;
+}
+.ABOUT {
+  width: 100%;
+  height: 310px;
+  background-color: white;
+}
+.aboutimg {
+  width: 100%;
+  height: 300px;
+}
+.image {
+  display: flex;
+  position: absolute;
+  left: -10%;
+  margin-top: 0%;
+  width: 20%;
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(169, 169, 169);
+}
+.footercontainer {
+  width: 30%;
+  height: 100%;
+  text-transform: uppercase;
+  font-family: "Kreon", serif;
+  font-size: xx-large;
+}
+.footerimage {
+  width: 20px;
+}
+.footrimage {
+  width: 30px;
+}
+.copyright {
+  font-size: small;
+}
+.footercontainer2 {
+  text-align: right;
+  color: black;
+  width: 65%;
+}
+#myBtn {
+  float: right;
+
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: small;
+}
+.zomato {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+}
+article {
+  display: flex;
+  width: 100%;
+  height: 420px;
+  text-align: center;
+  border-bottom: 1px solid rgb(45, 45, 45);
+}
+.artcont1 {
+  width: 40%;
+  height: 100%;
+}
+.artcont1 h1 {
+  color: rgb(208, 208, 208);
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.artimg {
+  width: 50%;
+  right: 0%;
+  margin-top: 40px;
+}
+.artarrow {
+  width: 10%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.btm {
+  text-transform: capitalize;
+  background-color: inherit;
+  border: 2px solid white;
+  background-color: rgba(255, 166, 0, 0.434);
+  color: rgb(255, 255, 255);
+  font-family: "Kreon", serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+}
+#menu2 {
+  display: none;
+}
+#menu1 {
+  display: block;
+}
+#secondpage {
+  background-color: inherit;
+  color: rgb(182, 179, 179);
+  margin-left: 45%;
+
+  border-radius: 100%;
+}
+.arrow {
+  width: 70px;
+  height: 70px;
+}
+.clints {
+    border-top: 1px solid rgb(68, 68, 68);
+    width: 100%;
+    height: 600px;
+    background-image: url(default-pasta.jpg);
+    background-position: right;
+    background-repeat: no-repeat, repeat;
+  }
+  .clintcont {
+    width: 800px;
+    height: 380px;
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    
+  }
+  .clintcont1 
+  {display: block;
+    border-right: 3px solid rgb(245, 98, 98);
+    width: 260px;
+    height: 100%;
+  }
+  .clintcont1 img
+  {
+    width: 100%; height: 100%
+  }
+.clintcont2 {
+  display: block;
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.694);
+    overflow-y: hidden;
+}
+.clintcont2 h2 {
+  color: rgb(187, 180, 180);
+  text-transform: capitalize;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 40px;
+  
+}
+.clintcont3 {
+ 
+ 
+  height: 50%;
+  color: rgb(187, 180, 180);
+}
+.clintcont2 p 
+{
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.clints h1
+{
+    color: rgb(245, 98, 98);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 700; 
+}
+.clints p
+{
+    text-align: center; 
+    color: white;
+}
+.container4
+{
+  display: block;
+ width: 8%;
+}
+.btm:hover
+{
+  background-color: rgba(0, 0, 0, 0.605);
+}
